@@ -16,6 +16,6 @@ Ingredient.create(name: "tonic")
 
 puts "Done !"
 
-puts "creating cocktails"
-Cocktail.create(name: "Mojito")
-puts "done!"
+# puts "creating cocktails"
+# Cocktail.create(name: "Mojito")
+# puts "done!"
