@@ -1,17 +1,35 @@
 // Place all the styles related to the Ingredients controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
 
-.photo-add-ingredient {
-  display: flex;
-  flex-direction: column;
 
-  img {
-
-  }
-
+.imagefond h1 {
+  font-family: 'Lobster';
+  font-size: 60px;
+  color: #EF8C13;
+  text-decoration: underline overline;
 }
 
-.photo-add-ingredient .btn-success {
-  width: 30%;
+.imagefond {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 50vh;
+  background-position: center;
+}
+
+.btn-flat {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 50px;
+  border: 2px solid #1EDD88;
+  // background: #1EDD88;
+  transition: background 0.3s ease;
+}
+
+.btn-flat:hover {
+  background: #1BCB7F;
+  color: #180E63;
 }

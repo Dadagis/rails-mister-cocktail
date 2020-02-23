@@ -1,6 +1,9 @@
 // Place all the styles related to the Cocktails controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+
 .card-category {
   background-size: cover;
   background-position: center;
@@ -29,4 +32,18 @@
   a:hover {
     text-decoration: none;
   }
+}
+
+body {
+  background-color: #180E63;
+  color: white;
+}
+
+.container h1 {
+  text-align: center;
+  margin-top: 40px;
+  font-family: 'Lobster';
+  font-size: 60px;
+  color: #EF8C13;
+  text-decoration: underline overline;
 }
